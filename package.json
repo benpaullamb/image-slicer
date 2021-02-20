@@ -1,0 +1,15 @@
+{
+	"name": "image-slicer",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"slice": "node slice.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"jimp": "^0.16.1"
+	}
+}
