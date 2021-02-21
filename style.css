@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body,
+html,
+.container {
+	height: 100%;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.section {
+	height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr;
+}
+
+.panels {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.panel {
+	height: 500px;
+	margin-right: 8px;
+}
+
+.panel:last-child {
+	margin-right: 0;
+}

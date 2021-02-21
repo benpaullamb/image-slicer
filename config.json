@@ -1,4 +1,6 @@
 {
-	"sliceCount": 3,
-	"sliceGap": 16
+	"panelCount": 3,
+	"panelWidth": 30,
+	"panelHeight": 60,
+	"panelGap": 2
 }
