@@ -4,7 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"slice": "node slice.js"
+		"slice": "node slice.js",
+		"clear": "node ./utils/clear.js",
+		"clear-input": "node ./utils/clear.js input",
+		"clear-output": "node ./utils/clear.js output"
 	},
 	"keywords": [],
 	"author": "",
